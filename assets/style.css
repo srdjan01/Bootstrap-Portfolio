@@ -1,0 +1,53 @@
+p {
+	text-align: left;
+	color: #777777;
+}
+
+h3 {
+	color: #4aaaa5;
+}
+
+.me {
+	width: 100%;
+	height: auto;
+}
+
+li {
+	font-size: 20px;
+}
+
+hr {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+#footer {
+	height: 70px;
+	background-color: lightgray;
+}
+
+#footer>p {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #777777;
+	border-top: 5px solid #4aaaa5;
+}
+
+#brand {
+	background-color: #4aaaa5;
+	font-size: 1.5em;
+	color: white;
+}
+
+.img-thumbnail {
+	width: 20%;
+	height: auto;
+}
+
+.connect_group {
+	padding-left: 15px:;
+}
+
+
