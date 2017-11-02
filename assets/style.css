@@ -11,7 +11,7 @@ h3 {
 	color: #4aaaa5;
 }
 
-.me {
+div img.me {
 	width: 100%;
 	height: auto;
 }
@@ -63,5 +63,54 @@ hr {
 .form_group {
 	
 }
+
+div a img.portfolio_pics {
+	width: 30%;
+	height: auto;
+	margin: 10px 10px;
+	display: inline-block;
+	}
+
+img.image_banner {
+    position: relative;
+}
+span.image_banner {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: auto;
+    padding: 15px;
+    background-color: darkgray;
+
+/*@media (max-width: @screen-md-max) {
+	
+}*/
+
+@media only screen and (max-width: 992px) {
+
+   div img.img-thumbnail {
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+	
+	div.connect_group a img {
+	width: 20%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	}
+
+	div a img.portfolio_pics {
+	width: 45%;
+	height: auto;
+	margin: 15px 15px;
+	display: inline-block;
+	}
+}
+
 
 
