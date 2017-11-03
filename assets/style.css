@@ -40,6 +40,15 @@ hr {
 	background-color: #666666;
 }
 
+.port {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	margin-top: -20px;
+	padding-top: 20px;
+
+}
+
 #brand {
 	background-color: #4aaaa5;
 	font-size: 1.5em;
@@ -49,6 +58,7 @@ hr {
 .img-thumbnail {
 	width: 20%;
 	height: auto;
+	border-bottom: : 10px solid #4aaaa5;
 }
 
 .connect_group {
@@ -60,55 +70,37 @@ hr {
 	color: white;
 }
 
-.form_group {
-	
-}
-
 div a img.portfolio_pics {
 	width: 30%;
 	height: auto;
-	margin: 10px 10px;
+	margin: 30px 20px;
 	display: inline-block;
-	}
-
-img.image_banner {
-    position: relative;
-}
-span.image_banner {
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: auto;
-    padding: 15px;
-    background-color: darkgray;
-
-/*@media (max-width: @screen-md-max) {
 	
-}*/
+}
 
 @media only screen and (max-width: 992px) {
 
-   div img.img-thumbnail {
-	width: 50%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+	div img.img-thumbnail {
+		width: 50%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
 	}
 	
 	div.connect_group a img {
-	width: 20%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
+		width: 20%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
 	}
 
 	div a img.portfolio_pics {
-	width: 45%;
-	height: auto;
-	margin: 15px 15px;
-	display: inline-block;
+		width: 45%;
+		height: auto;
+		margin: 15px 15px;
+		display: inline-block;
 	}
 }
 
