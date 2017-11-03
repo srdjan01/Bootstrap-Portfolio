@@ -75,7 +75,11 @@ div a img.portfolio_pics {
 	height: auto;
 	margin: 30px 20px;
 	display: inline-block;
-	
+}
+
+.thumbnail .caption {
+    padding: 0px;
+    
 }
 
 @media only screen and (max-width: 992px) {
